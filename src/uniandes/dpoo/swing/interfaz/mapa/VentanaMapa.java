@@ -59,8 +59,12 @@ public class VentanaMapa extends JFrame implements ActionListener
         // Agrega el panel con los RadioButtons y los configura
         JPanel panelOpciones = new JPanel();
         radioTodos.setActionCommand(TODOS);
+        radioVisitados.setActionCommand(VISITADOS);
         radioTodos.addActionListener(this);
+        radioVisitados.addActionListener(this);
         radioTodos.setSelected(true);
+        radioVisitados.setSelected(true);
+        
         
         ButtonGroup grupo = new ButtonGroup();
         grupo.add(radioTodos);
