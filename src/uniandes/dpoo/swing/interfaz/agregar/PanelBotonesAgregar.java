@@ -31,6 +31,7 @@ public class PanelBotonesAgregar extends JPanel implements ActionListener
     public PanelBotonesAgregar( VentanaAgregarRestaurante ventanaPrincipal )
     {
         this.ventanaPrincipal = ventanaPrincipal;
+        
 
         setLayout( new FlowLayout( ) );
 
